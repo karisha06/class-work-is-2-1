@@ -1,7 +1,14 @@
-const age = 16;
+let statusPar = true;
+console.log("Сегодня важные пары?")
+if ( statusPar === true ) {
+    console.log("Сколько важных пар?");
+    let countPar = 2;
 
-if (age >= 18) {
-    console.log('Вы совершеннолетний!');
-} else {
-    console.log('Вы не совершеннолетний!');
+    if (countPar <4) {
+        console.log("Сиди дома");
+    } else {
+        console.log("Беги на учебу");
+    } else {
+        console.log("Сиди дома");
+    }
 }
