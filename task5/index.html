@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
+    <script defer src="app.js"></script> 
+</head> 
+<body> 
+    <div class="wrapper"> 
+        <h1 class="title">Расчет процентов оценок</h1> 
+        <div class="form" id="form"> 
+            <label for="grade-5">Кол-во оценок 5:</label> 
+            <input type="text" class="grade" id="grade-5"> 
+            <br><br> 
+            <label for="grade-4">Кол-во оценок 4:</label> 
+            <input type="text" class="grade" id="grade-4"> 
+            <br><br> 
+            <label for="grade-3">Кол-во оценок 3:</label> 
+            <input type="text" class="grade" id="grade-3"> 
+            <br><br> 
+            <label for="grade-2">Кол-во оценок 2:</label> 
+            <input type="text" class="grade" id="grade-2"> 
+            <br><br> 
+            <button onclick="calculate()" id="saveBtn">Рассчитать</button> 
+        </div> 
+        <div id="result"></div> 
+    </div> 
+</body> 
+</html>
